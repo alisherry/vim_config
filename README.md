@@ -25,6 +25,10 @@ The .vimrc contains a bunch of settings I've changed over time to suit my person
 
 *TypeScriptVim*: Mostly for syntax highlighting
 
+*vim-turbux*: Allows testing current file with a single key (used in conjunction with Tmux)
+
+*vimux*: Allows to send input to Tmux, used for the above use case. With a file open, we can hit a single key stroke and run tests in a new pane
+
 
 
 # **Screenshots:**
