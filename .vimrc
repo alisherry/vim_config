@@ -15,6 +15,9 @@ colorscheme dracula
 """""""""""""""
 " QOL 
 """""""""""""""
+filetype plugin indent on
+set noswapfile
+
 " more natural split opening
   set splitbelow
   set splitright
@@ -101,6 +104,7 @@ set shortmess+=c
 """""""""""""""""""""
 " nerdtree for file tree stuff
   map <leader>nn :NERDTreeToggle<CR>
+  map <leader>nf :NERDTreeFind<CR>
   let g:NERDTreeWinPos = "right"
 
 " FZF for fuzzy searching files

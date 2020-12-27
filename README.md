@@ -2,6 +2,7 @@
 # ![](https://user-images.githubusercontent.com/31668643/89481164-2a536a80-d765-11ea-9aca-832f3790fd4b.gif)
 
 The .vimrc contains a bunch of settings I've changed over time to suit my personal needs, the plugins are just git submodules of the plugins that are used.
+Use `git clone --recurse-submodules` to copy the submodules over.
 
 **Plugins:**
 
