@@ -103,6 +103,11 @@ set rtp+=~/tabnine-vim
 " Copy paste
  map <leader>pp :setlocal paste!<cr>
 
+ noremap <Leader>y "*y
+ noremap <Leader>p "*p
+ noremap <Leader>Y "+y
+ noremap <Leader>P "+p
+
 
 """""""""""""""""""""
 " PLUGINS
