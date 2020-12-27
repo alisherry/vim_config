@@ -2,6 +2,7 @@
 
 
 The .vimrc contains a bunch of settings I've changed over time to suit my personal needs, the plugins are just git submodules of the plugins that are used.
+Use `git clone --recurse-submodules` to copy the submodules over.
 
 **Plugins:**
 
