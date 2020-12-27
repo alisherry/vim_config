@@ -114,9 +114,10 @@ set rtp+=~/tabnine-vim
 
 " fugitive for git funsies
 nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
-nmap <leader>gs :G <CR>
+nmap <leader>gl :diffget //2<CR>
+nmap <leader>gr :G <CR>
 nmap <leader>gco :Gcommit <CR>
+nmap <leader>gp :GPush <CR>
 
 " FZF for fuzzy searching files
  map <space> :GFiles <CR>
