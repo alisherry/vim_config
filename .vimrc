@@ -91,13 +91,18 @@ set wrap "Wrap lines
 map <silent> <leader><cr> :noh<cr>
 
 " Autocomplete setup 
-autocmd FileType ruby set omnifunc=rubycomplete#Complete
-let g:rubycomplete_buffer_loading = 1
-let g:rubycomplete_classes_in_global = 1
-let g:rubycomplete_rails = 1
-set completeopt=menuone,longest
-:imap <Tab> <Enter>
-set shortmess+=c
+" autocmd FileType ruby set omnifunc=rubycomplete#Complete
+" let g:rubycomplete_buffer_loading = 1
+" let g:rubycomplete_classes_in_global = 1
+" let g:rubycomplete_rails = 1
+" set completeopt=menuone,longest
+" :imap <Tab> <Enter>
+" set shortmess+=c
+set rtp+=~/tabnine-vim
+
+" Copy paste
+ map <leader>pp :setlocal paste!<cr>
+
 
 """""""""""""""""""""
 " PLUGINS
@@ -106,6 +111,13 @@ set shortmess+=c
   map <leader>nn :NERDTreeToggle<CR>
   map <leader>nf :NERDTreeFind<CR>
   let g:NERDTreeWinPos = "right"
+
+" fugitive for git funsies
+nmap <leader>gr :diffget //3<CR>
+nmap <leader>gl :diffget //2<CR>
+nmap <leader>gs :G <CR>
+nmap <leader>gco :Gcommit <CR>
+nmap <leader>gp :Gpush <CR>
 
 " FZF for fuzzy searching files
  map <space> :GFiles <CR>
