@@ -1,0 +1,33 @@
+[submodule "plugins/tabnine-vim"]
+	path = plugins/tabnine-vim
+	url = https://github.com/zxqfl/tabnine-vim
+[submodule "plugins/vim-fugitive"]
+	path = plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "plugins/fzf"]
+  path = plugins/fzf
+  url = https://github.com/junegunn/fzf.git
+[submodule "plugins/vim-rails"]
+  path = plugins/vim-rails
+  url = https://github.com/tpope/vim-rails.git
+[submodule "plugins/vim-ruby"]
+  path = plugins/vim-ruby
+  url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "plugins/vimux"]
+  path = plugins/vimux
+  url = https://github.com/benmills/vimux.git
+[submodule "plugins/nerdtree"]
+  path = plugins/nerdtree
+  url = https://github.com/preservim/nerdtree.git
+[submodule "plugins/fzf_vim"]
+  path = plugins/fzf_vim
+  url = https://github.com/junegunn/fzf.vim.git
+[submodule "plugins/vim-turbux"]
+  path = plugins/vim-turbux
+  url = https://github.com/jgdavey/vim-turbux.git
+[submodule "plugins/dracula"]
+  path = plugins/dracula
+  url = https://github.com/dracula/vim.git
+[submodule "plugins/lightline.vim"]
+  path = plugins/lightline.vim
+  url = https://github.com/itchyny/lightline.vim.git
