@@ -113,11 +113,11 @@ set rtp+=~/tabnine-vim
   let g:NERDTreeWinPos = "right"
 
 " fugitive for git funsies
-nmap <leader>gh :diffget //3<CR>
+nmap <leader>gr :diffget //3<CR>
 nmap <leader>gl :diffget //2<CR>
-nmap <leader>gr :G <CR>
+nmap <leader>gs :G <CR>
 nmap <leader>gco :Gcommit <CR>
-nmap <leader>gp :GPush <CR>
+nmap <leader>gp :Gpush <CR>
 
 " FZF for fuzzy searching files
  map <space> :GFiles <CR>
