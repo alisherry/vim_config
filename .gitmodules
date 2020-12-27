@@ -19,8 +19,8 @@
 [submodule "plugins/nerdtree"]
   path = plugins/nerdtree
   url = https://github.com/preservim/nerdtree.git
-[submodule "plugins/fzf_vim"]
-  path = plugins/fzf_vim
+[submodule "plugins/fzf.vim"]
+  path = plugins/fzf.vim
   url = https://github.com/junegunn/fzf.vim.git
 [submodule "plugins/vim-turbux"]
   path = plugins/vim-turbux
